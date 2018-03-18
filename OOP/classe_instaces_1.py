@@ -9,7 +9,7 @@ class Employee:
         self.pay = pay
 
     def fullname(self):
-        return '{} {}'.format(self.first, self.last)
+        return '{} {}'.format(self.first, self.last)  #.format - to add vallues 
 
 emp_1 = Employee('Corey', 'Schafer', 50000)
 emp_2 = Employee('Test', 'Employee', 60000)
